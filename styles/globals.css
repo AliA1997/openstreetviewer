@@ -1,0 +1,85 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+@keyframes changeHeaderText {
+  0% {
+    content: "MapBox";
+    /* transform: rotateX(90deg); */
+  }
+  5% {
+    /* transform: rotateX(0deg); */
+    content: "MapBox";
+  }
+  15% {
+    content: "الخريطة";
+    /* transform: rotateX(90deg); */
+  }
+  20% {
+    /* transform: rotateX(0deg); */
+    content: "الخريطة";
+  }
+  30% {
+    content: "harita kutusu";
+    /* transform: rotateX(90deg); */
+  }
+  35% {
+    /* transform: rotateX(0deg); */
+    content: "harita kutusu";
+  }
+  45% {
+    content: "جعبه نقشه";
+    /* transform: rotateX(90deg); */
+  }
+  50% {
+    /* transform: rotateX(0deg); */
+    content: "جعبه نقشه";
+  }
+  60% {
+    content: "نقشہ خانہ";
+    /* transform: rotateX(90deg); */
+  }
+  65% {
+    /* transform: rotateX(0deg); */
+    content: "نقشہ خانہ";
+  }
+  75% {
+    content: "мапбокс";
+    /* transform: rotateX(90deg); */
+  }
+  80% {
+    /* transform: rotateX(0deg); */
+    content: "мапбокс";
+  }
+  90% {
+    content: "ਨਕਸ਼ਾ ਬਾਕਸ";
+    /* transform: rotateX(90deg); */
+  }
+  100% {
+    /* transform: rotateX(0deg); */
+    content: "ਨਕਸ਼ਾ ਬਾਕਸ";
+  }
+}
